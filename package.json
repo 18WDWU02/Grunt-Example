@@ -1,0 +1,31 @@
+{
+  "name": "grunt_example",
+  "version": "0.0.1",
+  "description": "Example project for grunt",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/18WDWU02/Grunt-Example.git"
+  },
+  "keywords": [
+    "grunt",
+    "npm"
+  ],
+  "author": "Richard Hpa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/18WDWU02/Grunt-Example/issues"
+  },
+  "homepage": "https://github.com/18WDWU02/Grunt-Example#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}
