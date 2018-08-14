@@ -24,6 +24,7 @@ module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-contrib-watch');
 
     // grunt.registerTask();
+    grunt.registerTask('default', ['cssmin']);
     grunt.registerTask('min', ['cssmin']);
     grunt.registerTask('w', ['watch']);
 
